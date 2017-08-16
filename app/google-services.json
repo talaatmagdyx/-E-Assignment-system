@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "331202060408",
+    "firebase_url": "https://projectapp-24302.firebaseio.com",
+    "project_id": "projectapp-24302",
+    "storage_bucket": "projectapp-24302.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:331202060408:android:4244b56a2acf58e7",
+        "android_client_info": {
+          "package_name": "com.example.talaatmagdy.education"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "331202060408-b00gk1d4ufeh3659a81jg1f9jt925sbr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.talaatmagdy.education",
+            "certificate_hash": "6a210009ef0bee3077fd34347538395004ebac2e"
+          }
+        },
+        {
+          "client_id": "331202060408-pjk0i71mq17p88ivtc6kbdfeg2dq1gk8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVjCyGszJiCeVN9Q8XQy_uQDdR1axm6sw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "331202060408-pjk0i71mq17p88ivtc6kbdfeg2dq1gk8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

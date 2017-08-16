@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+   android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+
+    <ImageView
+        android:layout_below="@+id/toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:src="@drawable/welcome"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageView" />
+
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You Ready Learn,share,Teach! Register now"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:textColor="#9C27B0"
+        android:layout_marginTop="21dp"
+        android:id="@+id/textView" />
+
+
+    <Button
+        android:id="@+id/student_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter a Student"
+        android:theme="@style/MyButton_student"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/textView"
+        android:textColor="@android:color/white"
+        android:layout_marginEnd="20dp" />
+
+
+    <Button
+        android:id="@+id/doctor_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter a Doctor"
+        android:theme="@style/MyButton_doctor"
+        android:layout_alignParentBottom="true"
+        android:textColor="@android:color/white"
+        android:layout_alignStart="@+id/textView" />
+
+
+
+</RelativeLayout>

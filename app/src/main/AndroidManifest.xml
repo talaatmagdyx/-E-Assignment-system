@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.talaatmagdy.education">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".FireApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Main1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".login">
+            <intent-filter>
+                <action android:name="android.intent.action.login_student" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".register">
+            <intent-filter>
+                <action android:name="android.intent.action.register_doctor" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".dashboard_doctor">
+            <intent-filter>
+                <action android:name="android.intent.action.dashboard" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".profile">
+            <intent-filter>
+                <action android:name="android.intent.action.doctor_profile" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ViewCourse">
+            <intent-filter>
+                <action android:name="android.intent.action.course_dash" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AddAssignment"></activity>
+        <activity android:name=".ViewAssignment"></activity>
+        <activity android:name=".dashboard_student"></activity>
+        <activity android:name=".course_dash"></activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".QuizActivity" />
+        <activity android:name=".ResultActivity" />
+        <activity android:name=".QuizActivity2" />
+        <activity android:name=".QuizActivity3" />
+        <activity android:name=".QuizActivity4" />
+        <activity android:name=".QuizActivity5" />
+        <activity android:name=".QuizActivity6" />
+        <activity android:name=".QuizActivity7" />
+        <activity android:name=".QuizActivity8" />
+        <activity android:name=".QuizActivity9" />
+        <activity android:name=".QuizActivity10"/>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+
+        />
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="120dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:id="@+id/profile_Details_student"
+            android:layout_width="wrap_content"
+            android:layout_height="114dp"
+            android:layout_weight="1"
+            android:text="profile_Details"
+            app:srcCompat="@drawable/ic_account_circle_black_24dp" />
+
+        <Button
+            android:id="@+id/view_course"
+            android:layout_width="wrap_content"
+            android:layout_height="114dp"
+            android:layout_weight="1"
+            android:text="view Course"
+            app:srcCompat="@drawable/ic_settings_white_18dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear1"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="120dp"
+        android:text="Log out"
+        android:id="@+id/logout"
+        />
+
+
+</RelativeLayout>
